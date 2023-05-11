@@ -3,6 +3,8 @@
 
 #pragma once
 
+#define OLED_FONT_WIDTH 6
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.

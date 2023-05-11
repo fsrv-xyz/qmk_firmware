@@ -13,7 +13,7 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["C6", "D7", "E6"],
+        "cols": ["C6", "D7", "E6", "B4", "B5"],
         "rows": ["D4"]
     },
     "processor": "atmega32u4",
@@ -28,7 +28,9 @@
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },
-                { "matrix": [0, 2], "x": 2, "y": 0 }
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 4, "y": 0 }
             ]
         }
     }
